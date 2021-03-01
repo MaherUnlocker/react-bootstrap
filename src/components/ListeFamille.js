@@ -35,7 +35,7 @@ export class ListeFamille extends Component {
   }
 
   render() {
-    return;
+    return(
     <div>
       {this.state.user.map((user) => (
         <div class="row">
@@ -50,7 +50,7 @@ export class ListeFamille extends Component {
           </div>
         </div>
       ))}
-    </div>;
+    </div>);
   }
 }
 
